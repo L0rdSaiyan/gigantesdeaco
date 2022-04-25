@@ -1,0 +1,306 @@
+
+
+public class Main
+{
+ public static void main(String[] args)
+    {
+        final String message = " I love You ";
+        final int n = 10;
+ 
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j <= 4 * n; j++)
+            {
+                double d1 = Math.sqrt(Math.pow(i - n, 2) + Math.pow(j - n, 2));
+                double d2 = Math.sqrt(Math.pow(i - n, 2) + Math.pow(j - 3 * n, 2));
+ 
+                if (d1 < n + 0.5 || d2 < n + 0.5) {
+                    System.out.print('*');
+                }
+                else {
+                    System.out.print(' ');
+                }
+            }
+            System.out.print(System.lineSeparator());
+        }
+ 
+        for (int i = 1; i < 2 * n; i++)
+        {
+            for (int j = 0; j < i; j++) {
+                System.out.print(' ');
+            }
+ 
+            for (int j = 0; j < 4 * n + 1 - 2 * i; j++)
+            {
+                if (i >= 2 && i <= 4)
+                {
+                    int idx = j - (4 * n - 2 * i - message.length()) / 2;
+                    if (idx < message.length() && idx >= 0)
+                    {
+                        if (i == 3) {
+                            System.out.print(message.charAt(idx));
+                        }
+                        else {
+                            System.out.print(' ');
+                        }
+                    }
+                    else {
+                        System.out.print('*');
+                    }
+                }
+                else {
+                    System.out.print('*');
+                }
+            }
+            System.out.print(System.lineSeparator());
+        }
+    }
+}
+
+
+
+
+
+public class Main
+{
+	public static void main(String[] args) 
+{
+ 
+    String sla = "  ****************************************";
+int oi = sla.length(); 
+    
+
+    System.out.println("                                *******             *******                                          ");
+    System.out.println("                              ***********         ***********                                        ");
+    System.out.println("                             *************       *************                                       ");
+    System.out.println("                            ***************     ***************                                      ");
+    System.out.println("                           *****************   *****************                                     ");
+    
+    for(int i=0; i<=2; i++){
+    
+    System.out.println("                          ******************* *******************                                    ");
+    
+    }
+    
+    for(int heart=4;heart>0;heart--)
+    {
+        
+    System.out.println("                         ****************************************");
+        
+    }
+    
+    for(int love=40;love>0;love--)
+    {
+
+    }
+/*
+for(int i = 42; i<=oi; i--){
+
+		System.out.println(sla.substring(oi-i));
+
+}
+*/
+
+
+    
+	}
+}
+
+
+
+public class Main
+{
+    
+    public static void main(String []args)
+    {
+        
+      StringBuilder oi = new StringBuilder("Eu te amo");
+   
+
+        for(int i = 0; i<=oi.length();i++){
+            
+            System.out.println(oi.substring(0,i));
+            
+            if(i==2){
+                
+                oi.insert(2,"...");
+                
+            }
+            
+            
+            
+        }
+        
+        
+        
+    }
+    
+    
+    
+}
+
+
+{
+    
+    public static void main(String []args)
+    {
+        
+        StringBuilder anny = new StringBuilder("Eu te amo, Steffany");
+        
+        for(int i = 0; i<=anny.length();i++){
+            
+            System.out.println(anny.substring(0,i));
+            
+            try{
+                
+                Thread.sleep(1000);
+                
+                
+            }catch(InterruptedException goku){
+                
+                
+                
+            }
+            
+            if(i==3){
+                
+                anny.insert(3,"...");
+                
+            }
+            if(i==11){
+                
+                anny.insert(11,"...");
+                
+            }
+            
+        }
+        
+        
+        
+        
+        
+    }
+    
+    
+}
+
+
+import java.util.Scanner;
+ public class Main
+ {
+  
+   public static void action(){
+       
+       Scanner reader = new Scanner(System.in);
+       
+       String content;
+       
+       System.out.println("Qual ação deseja realizar?: ");
+       content=reader.nextLine();
+       
+       
+       
+   }
+  
+  
+  
+  public static void main(String[] args) 
+	{
+		
+	Scanner reader = new Scanner(System.in);
+		
+     String o = "ly", password, confirm, content;
+  
+      action();
+  
+      
+/*       System.out.println("Informe a senha de acesso: ");
+       password=reader.nextLine();
+       
+        System.out.println("Confirmação do autor: Esta é a senha correta?: ");
+        confirm=reader.nextLine();
+  */      
+       // if(confirm.equalsIgnoreCase("sim")){
+            
+            
+            
+        
+       
+  
+       //System.out.println(System.lineSeparator());
+
+    	System.out.println("                                                                                             \n                                                          ***                 ***\n                                                         *****               *****\n                                                        *******             ******* \n                                                      ***********         *********** \n                                                     *************       ************* \n                                                    ***************     *************** \n                                                   *****************   *****************");
+
+	for(int s = 1; s<=o.length();s++)
+	{
+	    
+	    System.out.println("                                                  ******************* *******************");
+	    
+	}
+	
+	for(int l = 0;l<=o.length();l++)
+	{
+	    
+	    System.out.println("                                                 *****************************************");
+	    
+	}
+	
+	System.out.println("                                                  ***************************************");
+	
+
+    System.out.println("                                                   ************           ************** \n                                                    *********** I love You*************  \n                                                     **********           ************    \n                                                      *******************************     \n                                                       *****************************            \n                                                        ***************************       \n                                                         *************************      \n                                                          ***********************                                \n                                                           *********************  \n                                                            *******************    \n                                                             *****************        \n                                                              ***************     \n                                                               *************           \n                                                                *********** \n                                                                 ********* \n                                                                  *******  \n                                                                   *****     \n                                                                    ***    \n                                                                     *    ");
+		
+		
+        
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Main
+{
+    
+    public static void action(){
+        
+        System.out.println("O que deseja fazer?;");
+        
+        
+    }
+    
+    
+    
+	public static void main(String[] args) {
+	
+	action();
+	
+	
+	
+	}
+}

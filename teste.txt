@@ -303,4 +303,75 @@ public class Main
 	
 	
 	}
+	
 }
+
+
+
+import java.util.Scanner;
+public class Heart{
+
+
+
+public static void main(String[] args) 
+	{
+		
+        Scanner reader = new Scanner(System.in);
+	
+		
+     String o = "ly", password, confirm, content, name;
+     
+  
+      
+/*       System.out.println("Informe a senha de acesso: ");
+       password=reader.nextLine();
+       
+        System.out.println("Confirmação do autor: Esta é a senha correta?: ");
+        confirm=reader.nextLine();
+  */      
+       // if(confirm.equalsIgnoreCase("sim")){
+            
+            
+            
+        
+       
+  
+       //System.out.println(System.lineSeparator());
+
+
+      System.out.println("Qual nome deseja colocar ao centro?:");
+      name=reader.nextLine();
+
+
+
+    	System.out.println("                                                                                             \n                                                          ***                 ***\n                                                         *****               *****\n                                                        *******             ******* \n                                                      ***********         *********** \n                                                     *************       ************* \n                                                    ***************     *************** \n                                                   *****************   *****************");
+
+	for(int s = 1; s<=o.length();s++)
+	{
+	    
+	    System.out.println("                                                  ******************* *******************");
+	    
+	}
+	
+	for(int l = 0;l<=o.length();l++)
+	{
+	    
+	    System.out.println("                                                 *****************************************");
+	    
+	}
+	
+	System.out.println("                                                  ***************************************");
+	
+
+    System.out.println("                                                   ************           ************** \n                                                    *********** I love You *********** \n                                                    ***********  " +name+"       **********  \n                                                     **********           ************    \n                                                      *******************************     \n                                                       *****************************            \n                                                        ***************************       \n                                                         *************************      \n                                                          ***********************                                \n                                                           *********************  \n                                                            *******************    \n                                                             *****************        \n                                                              ***************     \n                                                               *************           \n                                                                *********** \n                                                                 ********* \n                                                                  *******  \n                                                                   *****     \n                                                                    ***    \n                                                                     *    ");
+		
+		
+        
+		
+	}
+}
+
+
+
+
+

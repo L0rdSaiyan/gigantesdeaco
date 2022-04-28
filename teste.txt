@@ -373,5 +373,107 @@ public static void main(String[] args)
 
 
 
+import java.util.Random;
+import java.util.Scanner;
+public class Heart{
+
+
+ 
+
+
+
+public static void function(){
+
+  Scanner reader = new Scanner(System.in);
+
+
+
+   String option;
+    String name;
+    String o = "ly", password, confirm, content;
+
+  System.out.println("    ----MENU----    \n     1 - Coração  2 -  Feliz Aniversário \n 3 - Sla, to fazendo ainda  \n 4 - Tb n seiKKKKKKKKK ");
+  option=reader.nextLine();
+
+   if(option.equalsIgnoreCase("1") || (option.equalsIgnoreCase("um"))){
+
+
+
+    System.out.println("Qual nome você deseja colocar ao centro?: ");
+    name=reader.nextLine();
+
+
+System.out.println("                                                                                             \n                                                          ***                 ***\n                                                         *****               *****\n                                                        *******             ******* \n                                                      ***********         *********** \n                                                     *************       ************* \n                                                    ***************     *************** \n                                                   *****************   *****************");
+
+	for(int s = 1; s<=o.length();s++)
+	{
+	    
+	    System.out.println("                                                  ******************* *******************");
+	    
+	}
+	
+	for(int l = 0;l<=o.length();l++)
+	{
+	    
+	    System.out.println("                                                 *****************************************");
+	    
+	}
+	
+	System.out.println("                                                  ***************************************");
+	
+
+    System.out.println("                                                   ************           ************** \n                                                    *********** I love You *********** \n                                                    ***********  " +name+"       **********  \n                                                     **********           ************    \n                                                      *******************************     \n                                                       *****************************            \n                                                        ***************************       \n                                                         *************************      \n                                                          ***********************                                \n                                                           *********************  \n                                                            *******************    \n                                                             *****************        \n                                                              ***************     \n                                                               *************           \n                                                                *********** \n                                                                 ********* \n                                                                  *******  \n                                                                   *****     \n                                                                    ***    \n                                                                     *    ");
+		
+
+
+
+
+   }else if()
+
+
+
+}
+
+
+
+
+
+
+
+public static void main(String[] args) 
+	{
+		
+	
+		
+     
+     function();
+  
+      
+/*       System.out.println("Informe a senha de acesso: ");
+       password=reader.nextLine();
+       
+        System.out.println("Confirmação do autor: Esta é a senha correta?: ");
+        confirm=reader.nextLine();
+  */      
+       // if(confirm.equalsIgnoreCase("sim")){
+            
+            
+            
+        
+       
+  
+       //System.out.println(System.lineSeparator());
+
+
+
+
+
+	}
+}
+
+
+
+
+
 
 

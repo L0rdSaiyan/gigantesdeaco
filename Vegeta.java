@@ -2,6 +2,8 @@ package dbztankz;
 import robocode.*;
 import java.awt.Color;
 
+//Robô de tiro rápido = Daniel
+
 public class Vegeta extends AdvancedRobot{
 
  public void acheiFacil(){
